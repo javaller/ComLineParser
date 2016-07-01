@@ -1,0 +1,12 @@
+package day5_2;
+
+import java.util.List;
+
+public class Lab3 {
+    public static void main(String[] args) {
+    SimpleParser sp=new SimpleParser();
+    sp.Parse(args);
+        System.out.println(sp.getInFile());
+        System.out.println(sp.getOutFile());
+    }
+}
